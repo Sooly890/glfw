@@ -529,7 +529,7 @@ hints need to be set to something other than an empty string for them to take ef
 These are set with @ref glfwWindowHintString.
 
 @anchor GLFW_X11_OVERRIDE_REDIRECT_hint
-**GLFW_X11_OVERRIDE_REDIRECT** bypasses the window manager's control over a window. This is useful when a window needs to get around window manager's usage of a window (such as i3, which is extremely strict on where windows go). Accepted values are GLFW_TRUE and GLFW_FALSE.
+**GLFW_X11_OVERRIDE_REDIRECT** bypasses the window manager's control over a window. This is useful when a window needs to get around window manager's usage of a window (such as i3, which is extremely strict on where windows go). Accepted values are `GLFW_TRUE` and `GLFW_FALSE`.
 
 #### Supported and default values {#window_hints_values}
 
