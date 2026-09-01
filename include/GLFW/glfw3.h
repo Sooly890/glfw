@@ -1125,6 +1125,10 @@ extern "C" {
  *  [window hint](@ref GLFW_X11_CLASS_NAME_hint).
  */
 #define GLFW_X11_INSTANCE_NAME      0x00024002
+/*! @brief X11 specific
+ *  [window hint](@ref GLFW_X11_OVERRIDE_REDIRECT_hint).
+ */
+#define GLFW_X11_OVERRIDE_REDIRECT  0x00024003
 #define GLFW_WIN32_KEYBOARD_MENU    0x00025001
 /*! @brief Win32 specific [window hint](@ref GLFW_WIN32_SHOWDEFAULT_hint).
  */
@@ -1135,10 +1139,6 @@ extern "C" {
  *  Allows specification of the Wayland app_id.
  */
 #define GLFW_WAYLAND_APP_ID         0x00026001
-/*! @brief X11 specific
- *  [window hint](@ref GLFW_X11_OVERRIDE_REDIRECT_hint).
- */
-#define GLFW_X11_OVERRIDE_REDIRECT 0x00026002
 /*! @} */
 
 #define GLFW_NO_API                          0
