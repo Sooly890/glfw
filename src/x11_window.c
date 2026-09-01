@@ -610,6 +610,7 @@ static GLFWbool createNativeWindow(_GLFWwindow* window,
     {
         wa.override_redirect = True;
         wamask |= CWOverrideRedirect;
+        window->x11.overrideRedirect = GLFW_TRUE;
     }
 
     _glfwGrabErrorHandlerX11();
