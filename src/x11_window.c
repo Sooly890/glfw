@@ -606,7 +606,7 @@ static GLFWbool createNativeWindow(_GLFWwindow* window,
                     ExposureMask | FocusChangeMask | VisibilityChangeMask |
                     EnterWindowMask | LeaveWindowMask | PropertyChangeMask;
 
-    if (_glfw.hints.window.x11.overrideRedirect)
+    if (wndconfig->x11.overrideRedirect)
     {
         wa.override_redirect = True;
         wamask |= CWOverrideRedirect;
