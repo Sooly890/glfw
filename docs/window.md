@@ -529,7 +529,7 @@ hints need to be set to something other than an empty string for them to take ef
 These are set with @ref glfwWindowHintString.
 
 @anchor GLFW_X11_OVERRIDE_REDIRECT_hint
-**GLFW_X11_OVERRIDE_REDIRECT** bypasses the window manager's control over a window. This is useful when a window needs to get around window manager's usage of a window (such as i3, which is extremely strict on where windows go). Accepted values are `GLFW_TRUE` and `GLFW_FALSE`.
+__GLFW_X11_OVERRIDE_REDIRECT__ bypasses the window manager's control for the created window (ICCCM override-redirect). This is set with @ref glfwWindowHint. Accepted values are `GLFW_TRUE` and `GLFW_FALSE`.
 
 #### Supported and default values {#window_hints_values}
 
@@ -582,6 +582,7 @@ GLFW_COCOA_GRAPHICS_SWITCHING | `GLFW_FALSE`                | `GLFW_TRUE` or `GL
 GLFW_WAYLAND_APP_ID           | `""`                        | An ASCII encoded Wayland `app_id` name
 GLFW_X11_CLASS_NAME           | `""`                        | An ASCII encoded `WM_CLASS` class name
 GLFW_X11_INSTANCE_NAME        | `""`                        | An ASCII encoded `WM_CLASS` instance name
+GLFW_X11_OVERRIDE_REDIRECT    | `GLFW_FALSE`                | `GLFW_TRUE` or `GLFW_FALSE`
 
 
 ## Window event processing {#window_events}

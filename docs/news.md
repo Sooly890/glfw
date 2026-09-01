@@ -7,7 +7,7 @@
 
 ### X11 override redirect on window creation
 
-GLFW now provides the @ref GLFW_X11_OVERRIDE_REDIRECT_hint window hint to set override redirect on window creation.
+GLFW now provides the @ref GLFW_X11_OVERRIDE_REDIRECT_hint window hint to set override-redirect on window creation.
 
 ## Caveats {#caveats}
 
